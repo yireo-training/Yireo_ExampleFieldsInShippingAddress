@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
+
+    <extension_attributes for="Magento\Quote\Api\Data\AddressInterface">
+        <attribute code="example_shipping_address_fields" type="Yireo\ExampleFieldsInShippingAddress\Model\ExampleShippingAddressFields">
+            <join reference_table="example_shipping_address_fields" reference_field="address_id" join_on_field="entity_id">
+                <field>foobar</field>
+            </join>
+        </attribute>
+    </extension_attributes>
+</config>
