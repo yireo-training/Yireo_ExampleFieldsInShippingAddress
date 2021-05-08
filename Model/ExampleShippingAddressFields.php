@@ -32,6 +32,7 @@ class ExampleShippingAddressFields extends AbstractExtensibleModel implements Ex
 
     /**
      * @param int $addressId
+     * @return void
      */
     public function setAddressId(int $addressId)
     {
@@ -48,6 +49,7 @@ class ExampleShippingAddressFields extends AbstractExtensibleModel implements Ex
 
     /**
      * @param string $foobar
+     * @return void
      */
     public function setFoobar(string $foobar)
     {
